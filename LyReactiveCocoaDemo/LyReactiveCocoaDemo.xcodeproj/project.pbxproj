@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7BEB8B1EBB597100C13460 /* LyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7BEB8A1EBB597100C13460 /* LyDataSource.m */; };
+		2F7BEB8E1EBB599000C13460 /* DemoTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7BEB8D1EBB599000C13460 /* DemoTwoViewController.m */; };
+		2FBF6BD41E6672840048A3FE /* LyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF6BD11E6672840048A3FE /* LyDemoViewController.m */; };
+		2FBF6BD51E6672840048A3FE /* LyHeardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF6BD31E6672840048A3FE /* LyHeardView.m */; };
+		2FBF6BD81E667A170048A3FE /* LyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF6BD71E667A170048A3FE /* LyModel.m */; };
+		2FD395BD1E65ADC00080C733 /* LyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD395BC1E65ADC00080C733 /* LyViewController.m */; };
+		2FF38B441E530155001918DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF38B431E530155001918DB /* main.m */; };
+		2FF38B471E530155001918DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF38B461E530155001918DB /* AppDelegate.m */; };
+		2FF38B4A1E530155001918DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF38B491E530155001918DB /* ViewController.m */; };
+		2FF38B4D1E530155001918DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF38B4B1E530155001918DB /* Main.storyboard */; };
+		2FF38B4F1E530155001918DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF38B4E1E530155001918DB /* Assets.xcassets */; };
+		2FF38B521E530155001918DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF38B501E530155001918DB /* LaunchScreen.storyboard */; };
+		2FF38B5D1E530155001918DB /* LyReactiveCocoaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF38B5C1E530155001918DB /* LyReactiveCocoaDemoTests.m */; };
+		2FF38B681E530155001918DB /* LyReactiveCocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF38B671E530155001918DB /* LyReactiveCocoaDemoUITests.m */; };
+		36A7451698761402557AA641 /* Pods_LyReactiveCocoaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74D2314CDD53E342ECF5AD7 /* Pods_LyReactiveCocoaDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF38B591E530155001918DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF38B371E530155001918DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF38B3E1E530155001918DB;
+			remoteInfo = LyReactiveCocoaDemo;
+		};
+		2FF38B641E530155001918DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF38B371E530155001918DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF38B3E1E530155001918DB;
+			remoteInfo = LyReactiveCocoaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F7BEB891EBB597100C13460 /* LyDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyDataSource.h; sourceTree = "<group>"; };
+		2F7BEB8A1EBB597100C13460 /* LyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyDataSource.m; sourceTree = "<group>"; };
+		2F7BEB8C1EBB599000C13460 /* DemoTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTwoViewController.h; sourceTree = "<group>"; };
+		2F7BEB8D1EBB599000C13460 /* DemoTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTwoViewController.m; sourceTree = "<group>"; };
+		2FBF6BD01E6672840048A3FE /* LyDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyDemoViewController.h; sourceTree = "<group>"; };
+		2FBF6BD11E6672840048A3FE /* LyDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyDemoViewController.m; sourceTree = "<group>"; };
+		2FBF6BD21E6672840048A3FE /* LyHeardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyHeardView.h; sourceTree = "<group>"; };
+		2FBF6BD31E6672840048A3FE /* LyHeardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyHeardView.m; sourceTree = "<group>"; };
+		2FBF6BD61E667A170048A3FE /* LyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyModel.h; sourceTree = "<group>"; };
+		2FBF6BD71E667A170048A3FE /* LyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyModel.m; sourceTree = "<group>"; };
+		2FD395BB1E65ADC00080C733 /* LyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyViewController.h; sourceTree = "<group>"; };
+		2FD395BC1E65ADC00080C733 /* LyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyViewController.m; sourceTree = "<group>"; };
+		2FF38B3F1E530155001918DB /* LyReactiveCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyReactiveCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF38B431E530155001918DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FF38B451E530155001918DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FF38B461E530155001918DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FF38B481E530155001918DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FF38B491E530155001918DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FF38B4C1E530155001918DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FF38B4E1E530155001918DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF38B511E530155001918DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FF38B531E530155001918DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF38B581E530155001918DB /* LyReactiveCocoaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyReactiveCocoaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF38B5C1E530155001918DB /* LyReactiveCocoaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyReactiveCocoaDemoTests.m; sourceTree = "<group>"; };
+		2FF38B5E1E530155001918DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF38B631E530155001918DB /* LyReactiveCocoaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyReactiveCocoaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF38B671E530155001918DB /* LyReactiveCocoaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyReactiveCocoaDemoUITests.m; sourceTree = "<group>"; };
+		2FF38B691E530155001918DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384C0081520A950CC61CF6D9 /* Pods-LyReactiveCocoaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyReactiveCocoaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyReactiveCocoaDemo/Pods-LyReactiveCocoaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7501A7B43991C2A93A6D9319 /* Pods-LyReactiveCocoaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyReactiveCocoaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LyReactiveCocoaDemo/Pods-LyReactiveCocoaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B74D2314CDD53E342ECF5AD7 /* Pods_LyReactiveCocoaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyReactiveCocoaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF38B3C1E530155001918DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A7451698761402557AA641 /* Pods_LyReactiveCocoaDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF38B551E530155001918DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF38B601E530155001918DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7BEB881EBB597100C13460 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				2F7BEB891EBB597100C13460 /* LyDataSource.h */,
+				2F7BEB8A1EBB597100C13460 /* LyDataSource.m */,
+				2F7BEB8C1EBB599000C13460 /* DemoTwoViewController.h */,
+				2F7BEB8D1EBB599000C13460 /* DemoTwoViewController.m */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		2FBF6BCE1E66727B0048A3FE /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				2FBF6BD01E6672840048A3FE /* LyDemoViewController.h */,
+				2FBF6BD11E6672840048A3FE /* LyDemoViewController.m */,
+				2FBF6BD21E6672840048A3FE /* LyHeardView.h */,
+				2FBF6BD31E6672840048A3FE /* LyHeardView.m */,
+				2FBF6BD61E667A170048A3FE /* LyModel.h */,
+				2FBF6BD71E667A170048A3FE /* LyModel.m */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		2FF38B361E530155001918DB = {
+			isa = PBXGroup;
+			children = (
+				2FF38B411E530155001918DB /* LyReactiveCocoaDemo */,
+				2FF38B5B1E530155001918DB /* LyReactiveCocoaDemoTests */,
+				2FF38B661E530155001918DB /* LyReactiveCocoaDemoUITests */,
+				2FF38B401E530155001918DB /* Products */,
+				BEC3014C367B354600373471 /* Pods */,
+				C5B710785CCBC1429F5C25E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF38B401E530155001918DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF38B3F1E530155001918DB /* LyReactiveCocoaDemo.app */,
+				2FF38B581E530155001918DB /* LyReactiveCocoaDemoTests.xctest */,
+				2FF38B631E530155001918DB /* LyReactiveCocoaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF38B411E530155001918DB /* LyReactiveCocoaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2F7BEB881EBB597100C13460 /* Demo2 */,
+				2FBF6BCE1E66727B0048A3FE /* Demo1 */,
+				2FF38B451E530155001918DB /* AppDelegate.h */,
+				2FF38B461E530155001918DB /* AppDelegate.m */,
+				2FF38B481E530155001918DB /* ViewController.h */,
+				2FF38B491E530155001918DB /* ViewController.m */,
+				2FF38B4B1E530155001918DB /* Main.storyboard */,
+				2FF38B4E1E530155001918DB /* Assets.xcassets */,
+				2FF38B501E530155001918DB /* LaunchScreen.storyboard */,
+				2FF38B531E530155001918DB /* Info.plist */,
+				2FF38B421E530155001918DB /* Supporting Files */,
+				2FD395BB1E65ADC00080C733 /* LyViewController.h */,
+				2FD395BC1E65ADC00080C733 /* LyViewController.m */,
+			);
+			path = LyReactiveCocoaDemo;
+			sourceTree = "<group>";
+		};
+		2FF38B421E530155001918DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FF38B431E530155001918DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FF38B5B1E530155001918DB /* LyReactiveCocoaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF38B5C1E530155001918DB /* LyReactiveCocoaDemoTests.m */,
+				2FF38B5E1E530155001918DB /* Info.plist */,
+			);
+			path = LyReactiveCocoaDemoTests;
+			sourceTree = "<group>";
+		};
+		2FF38B661E530155001918DB /* LyReactiveCocoaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF38B671E530155001918DB /* LyReactiveCocoaDemoUITests.m */,
+				2FF38B691E530155001918DB /* Info.plist */,
+			);
+			path = LyReactiveCocoaDemoUITests;
+			sourceTree = "<group>";
+		};
+		BEC3014C367B354600373471 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				384C0081520A950CC61CF6D9 /* Pods-LyReactiveCocoaDemo.debug.xcconfig */,
+				7501A7B43991C2A93A6D9319 /* Pods-LyReactiveCocoaDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5B710785CCBC1429F5C25E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74D2314CDD53E342ECF5AD7 /* Pods_LyReactiveCocoaDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF38B3E1E530155001918DB /* LyReactiveCocoaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF38B6C1E530155001918DB /* Build configuration list for PBXNativeTarget "LyReactiveCocoaDemo" */;
+			buildPhases = (
+				E8782F2C2EDF2856E890794B /* 📦 Check Pods Manifest.lock */,
+				2FF38B3B1E530155001918DB /* Sources */,
+				2FF38B3C1E530155001918DB /* Frameworks */,
+				2FF38B3D1E530155001918DB /* Resources */,
+				9A23991C83BAA685120475DF /* 📦 Embed Pods Frameworks */,
+				5B5B5E97263F68533B4E83E6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyReactiveCocoaDemo;
+			productName = LyReactiveCocoaDemo;
+			productReference = 2FF38B3F1E530155001918DB /* LyReactiveCocoaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FF38B571E530155001918DB /* LyReactiveCocoaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF38B6F1E530155001918DB /* Build configuration list for PBXNativeTarget "LyReactiveCocoaDemoTests" */;
+			buildPhases = (
+				2FF38B541E530155001918DB /* Sources */,
+				2FF38B551E530155001918DB /* Frameworks */,
+				2FF38B561E530155001918DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF38B5A1E530155001918DB /* PBXTargetDependency */,
+			);
+			name = LyReactiveCocoaDemoTests;
+			productName = LyReactiveCocoaDemoTests;
+			productReference = 2FF38B581E530155001918DB /* LyReactiveCocoaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FF38B621E530155001918DB /* LyReactiveCocoaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF38B721E530155001918DB /* Build configuration list for PBXNativeTarget "LyReactiveCocoaDemoUITests" */;
+			buildPhases = (
+				2FF38B5F1E530155001918DB /* Sources */,
+				2FF38B601E530155001918DB /* Frameworks */,
+				2FF38B611E530155001918DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF38B651E530155001918DB /* PBXTargetDependency */,
+			);
+			name = LyReactiveCocoaDemoUITests;
+			productName = LyReactiveCocoaDemoUITests;
+			productReference = 2FF38B631E530155001918DB /* LyReactiveCocoaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF38B371E530155001918DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张杰";
+				TargetAttributes = {
+					2FF38B3E1E530155001918DB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2FF38B571E530155001918DB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FF38B3E1E530155001918DB;
+					};
+					2FF38B621E530155001918DB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FF38B3E1E530155001918DB;
+					};
+				};
+			};
+			buildConfigurationList = 2FF38B3A1E530155001918DB /* Build configuration list for PBXProject "LyReactiveCocoaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FF38B361E530155001918DB;
+			productRefGroup = 2FF38B401E530155001918DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF38B3E1E530155001918DB /* LyReactiveCocoaDemo */,
+				2FF38B571E530155001918DB /* LyReactiveCocoaDemoTests */,
+				2FF38B621E530155001918DB /* LyReactiveCocoaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF38B3D1E530155001918DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF38B521E530155001918DB /* LaunchScreen.storyboard in Resources */,
+				2FF38B4F1E530155001918DB /* Assets.xcassets in Resources */,
+				2FF38B4D1E530155001918DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF38B561E530155001918DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF38B611E530155001918DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B5B5E97263F68533B4E83E6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyReactiveCocoaDemo/Pods-LyReactiveCocoaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A23991C83BAA685120475DF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyReactiveCocoaDemo/Pods-LyReactiveCocoaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8782F2C2EDF2856E890794B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF38B3B1E530155001918DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7BEB8E1EBB599000C13460 /* DemoTwoViewController.m in Sources */,
+				2F7BEB8B1EBB597100C13460 /* LyDataSource.m in Sources */,
+				2FBF6BD51E6672840048A3FE /* LyHeardView.m in Sources */,
+				2FF38B4A1E530155001918DB /* ViewController.m in Sources */,
+				2FD395BD1E65ADC00080C733 /* LyViewController.m in Sources */,
+				2FBF6BD41E6672840048A3FE /* LyDemoViewController.m in Sources */,
+				2FBF6BD81E667A170048A3FE /* LyModel.m in Sources */,
+				2FF38B471E530155001918DB /* AppDelegate.m in Sources */,
+				2FF38B441E530155001918DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF38B541E530155001918DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF38B5D1E530155001918DB /* LyReactiveCocoaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF38B5F1E530155001918DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF38B681E530155001918DB /* LyReactiveCocoaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FF38B5A1E530155001918DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF38B3E1E530155001918DB /* LyReactiveCocoaDemo */;
+			targetProxy = 2FF38B591E530155001918DB /* PBXContainerItemProxy */;
+		};
+		2FF38B651E530155001918DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF38B3E1E530155001918DB /* LyReactiveCocoaDemo */;
+			targetProxy = 2FF38B641E530155001918DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FF38B4B1E530155001918DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF38B4C1E530155001918DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FF38B501E530155001918DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF38B511E530155001918DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FF38B6A1E530155001918DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FF38B6B1E530155001918DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF38B6D1E530155001918DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384C0081520A950CC61CF6D9 /* Pods-LyReactiveCocoaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LyReactiveCocoaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyReactiveCocoaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FF38B6E1E530155001918DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7501A7B43991C2A93A6D9319 /* Pods-LyReactiveCocoaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LyReactiveCocoaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyReactiveCocoaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FF38B701E530155001918DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LyReactiveCocoaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyReactiveCocoaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyReactiveCocoaDemo.app/LyReactiveCocoaDemo";
+			};
+			name = Debug;
+		};
+		2FF38B711E530155001918DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LyReactiveCocoaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyReactiveCocoaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyReactiveCocoaDemo.app/LyReactiveCocoaDemo";
+			};
+			name = Release;
+		};
+		2FF38B731E530155001918DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LyReactiveCocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyReactiveCocoaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LyReactiveCocoaDemo;
+			};
+			name = Debug;
+		};
+		2FF38B741E530155001918DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LyReactiveCocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bona.LyReactiveCocoaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LyReactiveCocoaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF38B3A1E530155001918DB /* Build configuration list for PBXProject "LyReactiveCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF38B6A1E530155001918DB /* Debug */,
+				2FF38B6B1E530155001918DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF38B6C1E530155001918DB /* Build configuration list for PBXNativeTarget "LyReactiveCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF38B6D1E530155001918DB /* Debug */,
+				2FF38B6E1E530155001918DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF38B6F1E530155001918DB /* Build configuration list for PBXNativeTarget "LyReactiveCocoaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF38B701E530155001918DB /* Debug */,
+				2FF38B711E530155001918DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF38B721E530155001918DB /* Build configuration list for PBXNativeTarget "LyReactiveCocoaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF38B731E530155001918DB /* Debug */,
+				2FF38B741E530155001918DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF38B371E530155001918DB /* Project object */;
+}

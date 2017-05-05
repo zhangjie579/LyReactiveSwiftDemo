@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         
         setUi()
         addRac()
+        
+        let dict = ["name" : "kk" , "age" : 10 , "student" : ["friend" : "zk" , "cat" : 7] , "room" : [["size" : 8 , "bag" : "hello"] , ["size" : 6 , "bag" : "ko"]]] as [String : Any]
+        
+        let p = Person.modelWithDict(dict : dict as [String : AnyObject]) as? Person
+        
+        print(p?.name)
     }
     
     fileprivate lazy var textFieldNum : UITextField = {

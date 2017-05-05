@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import LyRacDemo
+//@testable import LyRacDemo
 
 class LyRacDemoTests: XCTestCase {
     
